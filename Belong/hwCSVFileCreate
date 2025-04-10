@@ -1,0 +1,43 @@
+
+import csv
+homework = [
+    {
+        "Subject": "Math",
+        "Topic": "Algebra",
+        "Deadline": "10/4/2025",
+        "Status": 1
+    },
+    {
+        "Subject": "Physics",
+        "Topic": "Electrostatics",
+        "Deadline": "13/4/2025",
+        "Status": 0
+    },
+    {
+        "Subject": "Computer Science",
+        "Topic": "K-Maps",
+        "Deadline": "17/4/2025",
+        "Status": 1
+    },
+    {
+        "Subject": "Computer Science",
+        "Topic": "K-Maps",
+        "Deadline": "17/4/2025",
+        "Status": 1
+    },
+    {
+        "Subject": "English",
+        "Topic": "Macbeth",
+        "Deadline": "21/4/2025",
+        "Status": 0
+    }
+]
+with open("homework_data.csv", "w", newline='') as file:
+    fieldnames = ["Subject", "Topic", "Deadline", "Status"]
+    writer = csv.DictWriter(file, fieldnames=fieldnames)
+
+    writer.writeheader()  
+    for item in homework:
+        writer.writerow(item)
+
+print("homework_data.csv created successfully.")    

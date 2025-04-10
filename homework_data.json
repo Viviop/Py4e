@@ -1,0 +1,26 @@
+[
+    {
+        "Subject": "Mathematics",
+        "Topic": "Algebra",
+        "Deadline": "10/4/2025",
+        "Status": 1
+    },
+    {
+        "Subject": "Physics",
+        "Topic": "Electricity",
+        "Deadline": "13/4/2025",
+        "Status": 0
+    },
+    {
+        "Subject": "Computer",
+        "Topic": "K-Maps",
+        "Deadline": "17/4/2025",
+        "Status": 1
+    },
+    {
+        "Subject": "English",
+        "Topic": "Macbeth",
+        "Deadline": "21/4/2025",
+        "Status": 0
+    }
+]

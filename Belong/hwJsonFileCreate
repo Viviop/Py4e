@@ -1,0 +1,12 @@
+import json
+homework = [
+    {"Subject": "Mathematics", "Topic": "Algebra", "Deadline": "10/4/2025", "Status": 1},
+    {"Subject": "Physics", "Topic": "Electricity", "Deadline": "13/4/2025", "Status": 0},
+    {"Subject": "Computer", "Topic": "K-Maps", "Deadline": "17/4/2025", "Status": 1},
+    {"Subject": "English", "Topic": "Macbeth", "Deadline": "21/4/2025", "Status": 0}
+]
+
+with open("homework_data.json", "w") as file:
+    json.dump(homework, file, indent=4)
+
+print("homework_data.json file created successfully.")
