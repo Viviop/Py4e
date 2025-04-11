@@ -33,3 +33,5 @@ while True:
 
     else:
         print("Bot: I didn't understand that command.")
+
+print()
