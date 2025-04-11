@@ -7,7 +7,7 @@ def get():
     return uinput.lower().strip()
 
 task = []
-
+print()
 while True:
     cmd = get()
 
