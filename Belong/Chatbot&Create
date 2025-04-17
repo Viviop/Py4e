@@ -28,7 +28,7 @@ while True:
             if description.lower() == "quit":
                 break
 
-            print("Bot: Enter deadline (e.g., 2025-04-20):")
+            print("Bot: Enter deadline (e.g., 28-08-2025):")
             deadline = input("User: ").strip()
             if deadline.lower() == "quit":
                 break
