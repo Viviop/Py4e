@@ -1,0 +1,20 @@
+[
+    {
+        "Subject": "Math",
+        "Description": "Complete exercises from page 45 to 48",
+        "Deadline": "Tomorrow",
+        "Completion Status": "Incomplete"
+    },
+    {
+        "Subject": "English",
+        "Description": "Write a 500-word essay on Shakespeare's tragedies",
+        "Deadline": "Next week",
+        "Completion Status": "Completed"
+    },
+    {
+        "Subject": "Science",
+        "Description": "Prepare a presentation on renewable energy",
+        "Deadline": "Next month",
+        "Completion Status": "Completed"
+    }
+]
